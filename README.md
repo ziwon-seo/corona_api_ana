@@ -380,30 +380,30 @@ for a in pdata.keys():
 
 
 
-## 누적 검사 수(십만단위)
+### 누적 검사 수(십만단위)
 ![svg](imges/output_9_2.svg)
     
 
 
 
-## 누적 사망자 수    
+### 누적 사망자 수    
 ![svg](imges/output_9_3.svg)
     
 
 
 
-## 일일 확진자 수    
+### 일일 확진자 수    
 ![svg](imges/output_9_4.svg)
     
 
 
 
-## 일일 검사 수 
+### 일일 검사 수 
 ![svg](imges/output_9_5.svg)
     
 
 
-
+#### 데이터 .csv 파일로 저장하기.
 ```python
 pdata.to_csv("save_corona_data.csv")
 ```
