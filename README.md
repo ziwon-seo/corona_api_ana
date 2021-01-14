@@ -380,7 +380,7 @@ for a in pdata.keys():
 
 
 
-## 누적 검사 수
+## 누적 검사 수(십만단위)
 ![svg](imges/output_9_2.svg)
     
 
@@ -398,7 +398,7 @@ for a in pdata.keys():
 
 
 
-## 일일 검사 수    
+## 일일 검사 수 
 ![svg](imges/output_9_5.svg)
     
 
