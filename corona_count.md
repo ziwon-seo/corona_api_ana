@@ -365,31 +365,31 @@ for a in pdata.keys():
     
 
 
-    
+## 누적 확진자 수
 ![svg](imges/output_9_1.svg)
     
 
 
 
-    
+## 누적 검사 수
 ![svg](imges/output_9_2.svg)
     
 
 
 
-    
+## 누적 사망자 수    
 ![svg](imges/output_9_3.svg)
     
 
 
 
-    
+## 일일 확진자 수    
 ![svg](imges/output_9_4.svg)
     
 
 
 
-    
+## 일일 검사 수    
 ![svg](imges/output_9_5.svg)
     
 
