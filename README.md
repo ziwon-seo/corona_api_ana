@@ -37,6 +37,8 @@ queryParams = '?' + \
     
 
 
+### xml  >> json >> 데이터 파싱 >> pandas
+
 ```python
 import xmltodict
 
@@ -61,6 +63,7 @@ all_data = pd.DataFrame(js)
 
 ```
 
+### 필요한 데이터 선택 >> nan 값 0으로 치환 >> 데이터 정렬
 
 ```python
 select_data = all_data[['기준일','누적 사망자 수','누적 검사 수', '누적 확진자 수']]
@@ -182,7 +185,7 @@ select_data
 </div>
 
 
-
+### 데이터 집계 데이터의 타입 변경
 
 ```python
 select_data['누적 확진자 수'] = pd.to_numeric(select_data['누적 확진자 수'])
@@ -317,7 +320,7 @@ pdata
 # 그래서 정보의 순서를 알지 못하기 때문에 데이터를 비교하여 큰수에서 작은 수를 빼는 함수를 정의했다.
 ```
 
-
+### 큰수에서 작은수를 빼는 함수 정의
 ```python
 def compare_sub(a,b):
     if a > b :
@@ -328,7 +331,8 @@ def compare_sub(a,b):
         return c
 ```
 
-
+### 일일 검사자, 확진자 수의 데이터가 없으므로
+### 누적데이터의 차이로 계산
 ```python
 daily_crn_cnt = []
 daily_check_cnt = []
@@ -345,11 +349,8 @@ pdata['누적 사망자 수'] = pd.to_numeric(pdata['누적 사망자 수'])
 ```
 
 
-```python
-## 출력하기
+## 그래프 표출하기
 ## pandas 시리즈 데이터를 numeric 으로 변경
-```
-
 
 ```python
 import matplotlib.pyplot as plt
