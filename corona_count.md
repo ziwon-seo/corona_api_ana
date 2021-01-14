@@ -366,31 +366,31 @@ for a in pdata.keys():
 
 
     
-![svg](output_9_1.svg)
+![svg](imges/output_9_1.svg)
     
 
 
 
     
-![svg](output_9_2.svg)
+![svg](imges/output_9_2.svg)
     
 
 
 
     
-![svg](output_9_3.svg)
+![svg](imges/output_9_3.svg)
     
 
 
 
     
-![svg](output_9_4.svg)
+![svg](imges/output_9_4.svg)
     
 
 
 
     
-![svg](output_9_5.svg)
+![svg](imges/output_9_5.svg)
     
 
 
@@ -4494,7 +4494,7 @@ plt.show()
 
 
     
-![svg](output_14_0.svg)
+![svg](imges/output_14_0.svg)
     
 
 
