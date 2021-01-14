@@ -1,7 +1,9 @@
 ## 공공 데이터 api를 사용하여 코로나 관련 데이터 얻기.
-~~
+# 자신의 api_key 준비.
+# https://www.data.go.kr/tcs/dss/selectApiDataDetailView.do?publicDataPk=15043376 여기서 신청 가능 !!
 
 
+# api에 조회 시작일과 종료일을 입력한다.
 ```python
 from urllib.request import urlopen
 from urllib.parse import urlencode, unquote, quote_plus
@@ -27,8 +29,9 @@ queryParams = '?' + \
 '&startCreateDt={}&endCreateDt={}'.format(yseter,now_today)
 
 ```
-
+    시작일
     20191231
+    종료일
     20210114
     
 
