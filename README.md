@@ -13,7 +13,7 @@ now_today = datetime.today() - timedelta(0)
 now_today = now_today.strftime("%Y%m%d") 
 print(yseter)
 print(now_today)
-my_api_key = 'BkVECcgm%2BMWCUGNoYYnEM3j4L4OxbvFI4%2Fjv6G3WrqIWghuXVV1RufSxvrlIp3yq5JZaW%2BjHnSCvyHzZqlbrFw%3D%3D'
+my_api_key = '__input your api key__'
 
 url = 'http://openapi.data.go.kr/openapi/service/rest/Covid19/getCovid19InfStateJson'
 queryParams = '?' + \
