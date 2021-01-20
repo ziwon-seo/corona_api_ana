@@ -408,8 +408,7 @@ for a in pdata.keys():
 pdata.to_csv("save_corona_data.csv")
 ```
 
-###
-jupyter notebook 으로 작성하여 저장시 Mark down > .md 파일로 저장하면 위와 같이
+#### jupyter notebook 으로 작성하여 저장시 Mark down > .md 파일로 저장하면 위와 같이
 
-git에 업로드 가능!
+#### git에 업로드 가능!
 
