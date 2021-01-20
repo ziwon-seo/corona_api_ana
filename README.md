@@ -1,4 +1,4 @@
-## 공공 데이터 api를 사용하여 코로나 관련 데이터 얻기.
+# 공공 데이터 api를 사용하여 코로나 데이터 분석하기
 ### 자신의 api_key 준비.
 ### https://www.data.go.kr/tcs/dss/selectApiDataDetailView.do?publicDataPk=15043376 
 ### 여기서 신청 가능 !!
